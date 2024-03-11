@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
-
         Employee employee;
-
         employee = new Employee();
 
         System.out.print("Write the employee's name: ");

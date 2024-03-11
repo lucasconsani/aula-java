@@ -1,7 +1,6 @@
 public class Employee {
         public String name;
         public double grossSalary, tax;
-
         public double netSalary(){
             return grossSalary - tax;
         }
